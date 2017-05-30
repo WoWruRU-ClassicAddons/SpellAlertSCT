@@ -32,3 +32,22 @@ if (GetLocale()=="koKR") then
 	SASCTOPTIONS_FrameSlider = { name="프레임", minValue = 1, maxValue = 2, valueStep = 1, minText="1", maxText="2", tooltipText = "표시되는 SCT 프레임의 방향을 설정합니다"};
 
 end
+
+if (GetLocale()=="ruRU") then
+-- Version : Russian ( by Maus )
+SASCTOPTIONS_Toggle = "Включить SpellAlertSCT"
+SASCTOPTIONS_Crit = "Показ сообщения критов"
+SASCTOPTIONS_TargetOnly = "Сообщения только от выбранной цели"
+SASCTOPTIONS_ReTarget = "Перенаправить на 'Притвориться мертвым' "
+SASCTOPTIONS_Compact = "Стиль комбат-сообщений (Enemy + Thorns)"
+SASCTOPTIONS_Colorize = "Раскраска эффектов (|cff68ccefEnemy|cffffffff получает: |cffff0000Thorns|cfffdd000) - игнорирует другие варианты цвета"
+SASCTOPTIONS_Emotes = "Оповещения для эмоций "
+SASCTOPTIONS_BossWarns = "Включить предупреждения боссов (Как оригинальный SpellAlert)"
+SASCTOPTIONS_TargetIndicator = "Индикатор цели"
+
+SASCTOPTIONS_MustHitEnter = "Нажмите Enter, чтобы сохранить изменения в этой области, Escape, чтобы отменить"
+
+SASCTOPTIONS_Style = { name="Стиль анимации", tooltipText = "Какой тип анимации использовать", table = {[1] = "Стандартный",[2] = "Радужный",[3] = "Горизонтально",[4] = "Наискасок вниз", [5] = "Наискасок вверх", [6] = "Брызги", [7] = "Сообщение", [8] = "Урон"}};
+SASCTOPTIONS_FrameSlider = { name="Фрейм", minValue = 1, maxValue = 2, valueStep = 1, minText="1", maxText="2", tooltipText = "SCT фрейм для вывода"};
+
+end

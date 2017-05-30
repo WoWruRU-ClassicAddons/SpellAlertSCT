@@ -1,6 +1,7 @@
-## Interface: 11200
+﻿## Interface: 11200
 ## Title: SpellAlertSCT Options
 ## Notes:  Options menu for SpellAlertSCT (LoadOnDemand)
+## Notes-ruRU:  Меню опций для SpellAlertSCT (LoadOnDemand)
 ## Dependencies: sct, SpellAlertSCT
 ## LoadOnDemand: 1
 localization.lua
